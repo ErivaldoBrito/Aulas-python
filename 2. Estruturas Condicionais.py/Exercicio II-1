@@ -1,0 +1,16 @@
+import os 
+os.system ("cls || clear")
+
+# Declarando variáveis  (: str)
+login_salvo = "Marta"
+senha_senha = "123"
+
+# Solicitando dados.
+login = input("Digite seu Login: ")
+senha = input("Digite sua senha: ")
+
+# Verificar.
+if login == login_salvo and senha == senha_senha:
+    print("Bem vindo")
+else:
+    print("Login ou senha inválidos.")

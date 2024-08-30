@@ -1,0 +1,35 @@
+import os
+os.system("cls || clear")
+
+# Solicitação
+
+dia = int(input("Digite um numero para o dia da semana:"))
+
+print("""
+  1 - Domingo
+  2 - Segunda
+  3 - Terça 
+  4 - Quarta
+  5 - Quinta
+  6 - Sexta
+  7 - Sabado
+      """)
+        
+match(dia)
+    case 1:
+        print("Fim de Semana")
+    case 2:
+        print("Dia Útil")
+    case 3:
+        print("Dia Útil")
+    case 4:
+        print("Dia Útil")
+    case 5:
+        print("Dia Útil")
+    case 6:
+        print("Dia Útil")
+    case 7:
+        print("Fim de Semana")
+
+Print("Opção Invalida")
+

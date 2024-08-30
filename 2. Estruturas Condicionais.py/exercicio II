@@ -1,0 +1,13 @@
+import os 
+os.system ("cls || clear")
+
+# Solicitando Dados: Algoritmo para receber o login e senha de um usuário. Se corretos, mostre mensagem "Bem vindo", caso contrário
+login = input("Digite o login: ")
+senha = input("Digite a senha: ")
+
+# Verificar.
+if login == "marta" and senha == "123":
+    print("Bem vindo")
+else:
+    print("Login ou senha inválidos.")
+    
